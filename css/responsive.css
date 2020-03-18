@@ -22,6 +22,18 @@
     font-size: 14px;
   }
 
+  .cup-nav1 .cup-icon, .cup-nav2 .cup-icon {
+    padding: 0 9px;
+  }
+
+  .cup-nav3 .egg-cup, .cup-nav3 .zelda-cup {
+    padding: 3.5px 12px;
+  }
+
+  .cup-nav3 .animal-cup, .cup-nav3 .bell-cup {
+    padding: 8px 12px;
+  }
+
   .footer-logo i {
     font-size: 21px;
   }
@@ -56,7 +68,15 @@
   }
 
   .about-longbb-wrapper p, .longbb-description li, .item-description {
-    font-size: 12px;
+    font-size: 11px;
+  }
+
+  #cup-nav .cup-icon {
+    padding: 0 6px;
+  }
+
+  .cup-icon p {
+    font-size: 10px;
   }
 
   .cup-nav1, .cup-nav2, .cup-nav3 {
@@ -66,10 +86,6 @@
   .cup-nav3 {
     position: static;
     flex-wrap: nowrap;
-  }
-
-  .cup-icon {
-    width: 25%;
   }
 
   .cup-description a {
@@ -91,5 +107,12 @@
     width: 28px;
     height: 28px;
     margin-top: 4px;
+  }
+}
+
+/* iphone5/SE用のCSS */
+@media (max-width: 330px) {
+  .cup-icon p {
+    font-size: 8px;
   }
 }
