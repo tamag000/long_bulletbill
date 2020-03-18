@@ -19,7 +19,7 @@ $(function() {
 
   $('.cup-icon').hover(
     function() {
-      $(this).find('img').css('opacity', '0.9');
+      $(this).find('img').css('opacity', '0.8');
     },
     function() {
       $(this).find('img').css('opacity', '1');
