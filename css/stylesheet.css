@@ -133,13 +133,21 @@ header {
   border: 1px solid #ccc;
 }
 
+.cup-nav3 .egg-cup p, .cup-nav3 .zelda-cup p{
+  margin-top: 9px;
+}
+
+.cup-nav3 .animal-cup, .cup-nav3 .bell-cup {
+  padding: 8px 12px;
+}
+
 .cup-icon img {
   display: block;
   width: 100%;
 }
 
 .cup-nav2 .sanda img {
-  width: 89.5%;
+  width: 87%;
   margin: 0 auto;
 }
 
@@ -169,7 +177,7 @@ header {
 }
 
 .cup-description a:hover {
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 .cup-description a:active {
@@ -225,7 +233,7 @@ footer {
 }
 
 .footer-logo {
-  width: 100px;
+  width: 30px;
   float: left;
 }
 
