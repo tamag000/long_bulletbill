@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+* {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+}
+
+.clear {
+  clear: left;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+section, header, footer, nav,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  background-color: #fff;
+  font-family: ;
+  font-size: 16px;
+  color: #333;
+}
+
+.flex-box {
+  display: flex;
+}
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
