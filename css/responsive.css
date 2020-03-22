@@ -35,7 +35,7 @@
   }
 
   .item-description p {
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .footer-logo i {
@@ -100,7 +100,7 @@
   }
 
   .item-description p {
-    font-size: 18px;
+    font-size: 11px;
   }
 
   .footer-logo i {
@@ -122,5 +122,9 @@
 @media (max-width: 330px) {
   .cup-icon p {
     font-size: 8px;
+  }
+  
+   .item-description p {
+    font-size: 9px;
   }
 }
