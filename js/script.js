@@ -14,7 +14,7 @@ $(function() {
 
     $('html, body').animate({
       'scrollTop': position
-    }, 800);
+    }, 1215);
   });
 
   $('.cup-icon').hover(
