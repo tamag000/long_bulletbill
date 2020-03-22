@@ -34,6 +34,10 @@
     padding: 8px 12px;
   }
 
+  .item-description p {
+    font-size: 22px;
+  }
+
   .footer-logo i {
     font-size: 21px;
   }
@@ -93,6 +97,10 @@
     width: 80%;
     margin: 15px auto;
     text-align: center;
+  }
+
+  .item-description p {
+    font-size: 18px;
   }
 
   .footer-logo i {
